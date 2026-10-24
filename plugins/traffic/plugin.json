@@ -1,12 +1,12 @@
 {
   "id": "traffic",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "name": "Traffic",
-  "description": "Live traffic light for the build gate. See which session holds a build or test slot, who waits in the queue, and how long recent runs took. The local Traffic daemon reads the gate files. Linux hosts show the gate. macOS and Windows hosts show that no gate exists there.",
+  "description": "Live traffic light for the build gate. See which session holds a build or test slot, who waits in the queue, and how long recent runs took. The local Traffic daemon reads the gate files. Hosts with the gate (Linux and macOS) show it. Hosts with no gate show that no gate exists there.",
   "entry": "index.html",
-  "artifact_url": "https://github.com/sigmashakeinc/ssg-plugin-traffic/releases/download/traffic-v0.1.2/traffic-v0.1.2.tar.gz",
-  "artifact_sha256": "34ec8707a7dc85384f29c7c8d3b369863c43f8a25a7a6d55bd0d701230865825",
-  "artifact_signature": "f1f49fc79e971f93f8c3aa3c357f38b1c1b81d69427eb59862c6da8180e9eb4174bd093e62a53bab278f3a81fb07c68bf93d4b3426b544e5c618930ecb88d20b",
+  "artifact_url": "https://github.com/sigmashakeinc/ssg-plugin-traffic/releases/download/traffic-v0.1.3/traffic-v0.1.3.tar.gz",
+  "artifact_sha256": "ccb34200afd033be92dadf74fb7f3b970149085aa8d74c2aabfefec5f49c7e13",
+  "artifact_signature": "27e85054b7628632d460205ae798fdfe94686f8841d7f151c8c3d915501635915f4c69b6581d6dd914b0c96575605286def828b2a7180a4bceec41b19500d107",
   "signing_fingerprint": "302a300506032b657003210078fd845619e68fb2b27f30aed0a75381e948922e9af56273e53d79351a2d5818",
   "min_ssg_version": "1.1.10",
   "nav": [
